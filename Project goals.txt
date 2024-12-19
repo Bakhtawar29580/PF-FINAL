@@ -1,0 +1,36 @@
+Goals:
+Entertainment and Learning:
+Create an engaging word-guessing game that challenges users' vocabulary and logical thinking skills.
+
+Code Organization:
+Develop a well-structured and modular program using functions, ensuring clean and maintainable code.
+
+User Interaction:
+Provide an intuitive and interactive gaming experience by including clear instructions, category selection, and real-time feedback during the game.
+
+Scalability:
+Lay the foundation for adding advanced features like file handling (e.g., loading/saving scores or custom word lists) and more complex game-ending logic in future iterations.
+
+Randomization:
+Use randomness to ensure replayability by selecting words dynamically from predefined categories.
+
+Objectives:
+Category and Word Selection:
+
+Allow users to select a category from multiple options.
+Randomly choose a word from the selected category for each game session.
+Guessing Logic:
+
+Display a partially hidden word with underscores (_) for unguessed letters.
+Update the display with correct guesses, and show progress in real-time.
+Error Handling:
+
+Track incorrect guesses and limit them to a maximum of six attempts.
+Display a "hangman" visual to represent the remaining attempts.
+Feedback and Messages:
+
+Provide feedback on whether the guessed letter is correct or incorrect.
+Show congratulatory messages for a win or reveal the correct word on a loss.
+Replayability:
+
+Enable users to play multiple rounds with new words or exit the game gracefully.
